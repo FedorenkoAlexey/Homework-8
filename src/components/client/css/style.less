@@ -1,0 +1,122 @@
+.client {
+  min-height: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  // background: #fbfbfb;
+
+  .client-head {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      color: #333333;
+      font-size: 50px;
+      line-height: 46px;
+      font-family: "Open Sans";
+      font-weight: 600;
+
+      span {
+        color: #fc8469;
+      }
+    }
+    .text6 {
+      font-size: 16px;
+      line-height: 25px;
+      color: #9d9d9d;
+      font-family: "Open Sans";
+      font-weight: 400;
+      margin-top: -20px;
+    }
+  }
+  .review {
+    display: flex;
+    min-height: 470px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .prev {
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      filter: drop-shadow(0.521px 2.954px 7px rgba(20, 20, 21, 0.08));
+      background-color: #ffffff;
+      font-size: 18px;
+      line-height: 75px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      border: 1px solid #e7e7e7;
+      margin-right: -25px;
+      z-index: 2;
+    }
+
+    .rev {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      width: 540px;
+      height: 270px;
+      border-radius: 1px;
+      filter: drop-shadow(0 0 13.5px rgba(20, 20, 21, 0.09));
+      background-color: #ffffff;
+      margin: 15px;
+
+      .circle {
+        width: 98px;
+        height: 98px;
+        margin-top: -50px;
+        border-radius: 49px;
+        filter: drop-shadow(0 0 0.5px rgba(20, 20, 21, 0.75));
+        background-color: #ffffff;
+        border: 0.5px solid #f5f5f5;
+      }
+      .comment {
+        height: 110px;
+        font-size: 17px;
+        line-height: 27px;
+        margin: 20px 50px 0 50px;
+        font-family: "Source Sans Pro";
+        font-weight: 400;
+        text-align: center;
+      }
+      .sign {
+        margin-bottom: 30px;
+        font-style: italic;
+        font-family: "Source Sans Pro";
+
+        span {
+          font-weight: 600;
+          font-style: normal;
+        }
+      }
+    }
+    .next {
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      filter: drop-shadow(0.521px 2.954px 7px rgba(20, 20, 21, 0.28));
+      background-color: #ff6e47;
+      font-size: 18px;
+      line-height: 75px;
+      color: #ffffff;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-left: -25px;
+      z-index: 2;
+    }
+  }
+  .progress {
+    width: 90px;
+    height: 22px;
+    margin-top: -70px;
+  }
+}
