@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/style.css";
 import Message from "./message";
-import "./assets/menu.png";
+import menu from "./assets/menu.png";
 
 class Header extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class Header extends React.Component {
             </div>
           </div>
           <div className="menu">
-            <img src="menu.png" alt=""></img>
+            <img src={menu} alt="menu"></img>
           </div>
         </div>
         <div className="center">
