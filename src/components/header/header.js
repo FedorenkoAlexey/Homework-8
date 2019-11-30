@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/style.css";
+import "./css/fonts.css";
 import Message from "./message";
 import menu from "./assets/menu.png";
 

@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import Working from "./components/working/working";
 import Featured from "./components/featured/featured";
 import Services from "./components/services/services";
+import Team from "./components/team/team";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Working></Working>
       <Featured></Featured>
       <Services></Services>
+      <Team></Team>
     </div>
   );
 }

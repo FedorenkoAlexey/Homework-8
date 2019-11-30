@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/style.css";
-// import Message from "./message";
+import "./css/fonts.css";
 
 class Working extends React.Component {
   constructor(props) {

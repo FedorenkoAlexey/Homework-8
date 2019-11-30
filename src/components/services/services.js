@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/style.css";
+import "./css/fonts.css";
 import icon1 from "./assets/icon1.png";
 import icon2 from "./assets/icon2.png";
 import icon3 from "./assets/icon3.png";
@@ -13,51 +14,51 @@ class Services extends React.Component {
 
   render() {
     return (
-      <div class="services">
-        <div class="serv-head">
+      <div className="services">
+        <div className="serv-head">
           <h1>
-            <span class="serv">Services </span>We Provide
+            <span className="serv">Services </span>We Provide
           </h1>
-          <p class="text5">
+          <p className="text4">
             {" "}
             Lorem ipsum dolor sit amet consectetur adipiscing elit Maiores fuga
             provident Libero.
           </p>
         </div>
-        <div class="wrap">
-          <div class="icons">
-            <div class="serv-block-act">
+        <div className="wrap">
+          <div className="icons">
+            <div className="serv-block-act">
               <img src={icon1} alt="" />
             </div>
-            <div class="serv-block">
+            <div className="serv-block">
               <img src={icon2} alt="" />
             </div>
-            <div class="serv-block">
+            <div className="serv-block">
               <img src={icon3} alt="" />
             </div>
-            <div class="serv-block">
+            <div className="serv-block">
               <img src={icon4} alt="" />
             </div>
           </div>
-          <div class="serv-text">
+          <div className="serv-text">
             <h2>Modern App Design</h2>
-            <div class="line"></div>
-            <p class="one">
+            <div className="line"></div>
+            <p className="one">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
               earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni
               rem optio distinctio illum consequuntur delectus nulla illo
               aperiam itaque cumque.
             </p>
 
-            <p class="two">
+            <p className="two">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
               officia vitae eveniet quam rem unde facilis.
             </p>
 
-            <p class="three">vitae eveniet quam rem unde facilis.</p>
+            <p className="three">vitae eveniet quam rem unde facilis.</p>
             <button>+ Know More</button>
           </div>
-          <div class="watch">
+          <div className="watch">
             <img src={watch} alt="" />
           </div>
         </div>
