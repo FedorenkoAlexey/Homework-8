@@ -32,7 +32,7 @@
 }
 .client .review {
   display: flex;
-  min-height: 470px;
+  min-height: 400px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -110,5 +110,4 @@
 .client .progress {
   width: 90px;
   height: 22px;
-  margin-top: -70px;
 }

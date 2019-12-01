@@ -8,10 +8,12 @@
 }
 .header .top {
   height: 120px;
+  max-width: 1170px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
+  margin-left: 80px;
 }
 .header .top .smart {
   width: 50%;
@@ -19,7 +21,7 @@
   align-items: center;
   margin-left: 2%;
 }
-.header .top .smart .logo {
+.header .top .smart .logo_head {
   border: 3.5px solid #706b73;
   color: #706b73;
   display: flex;
@@ -33,7 +35,7 @@
   font-family: "Open Sans";
   font-weight: 600;
 }
-.header .top .smart .logo .upper {
+.header .top .smart .logo_head .upper {
   color: #fa9179;
 }
 .header .top .menu {
@@ -41,10 +43,10 @@
   justify-content: flex-end;
   width: 50%;
   align-items: center;
-  margin-right: 3%;
+  margin-right: 5%;
 }
 .header .center {
-  height: 350px;
+  min-height: 350px;
   width: auto;
   display: flex;
   justify-content: center;
@@ -63,7 +65,7 @@
   color: #fc6f4e;
 }
 .header .center .text {
-  width: 50%;
+  width: 55%;
   height: 68px;
   font-size: 16px;
   color: #6b6b6b;
@@ -90,6 +92,7 @@
   border-radius: 2px;
   filter: drop-shadow(0 0 28.5px rgba(20, 20, 21, 0.2));
   background-color: #ffffff;
+  margin-left: 80px;
 }
 .header .bottom .message h3 {
   font-size: 20px;

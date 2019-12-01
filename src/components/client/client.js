@@ -22,7 +22,6 @@ class Client extends React.Component {
           </p>
         </div>
         <div className="review">
-          <div className="prev"> - </div>
           <div className="rev">
             <div className="circle"></div>
             <p className="comment">
@@ -47,7 +46,6 @@ class Client extends React.Component {
               <span>Al Rayhan,</span> UX Director
             </p>
           </div>
-          <div className="next">></div>
         </div>
         <div className="progress">
           <img src={progress} alt="" />

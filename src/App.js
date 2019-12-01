@@ -6,6 +6,8 @@ import Featured from "./components/featured/featured";
 import Services from "./components/services/services";
 import Team from "./components/team/team";
 import Client from "./components/client/client";
+import Logo from "./components/logo/logo";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Services></Services>
       <Team></Team>
       <Client></Client>
+      <Logo></Logo>
+      <Footer></Footer>
     </div>
   );
 }

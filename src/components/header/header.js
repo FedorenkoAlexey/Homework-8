@@ -14,7 +14,7 @@ class Header extends React.Component {
       <div className="header">
         <div className="top">
           <div className="smart">
-            <div className="logo">
+            <div className="logo_head">
               <span className="upper">S</span>mart
             </div>
           </div>
