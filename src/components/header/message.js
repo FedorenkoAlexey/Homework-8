@@ -13,11 +13,12 @@ class Message extends React.Component {
         <h3 className="test">
           <span className="send">Send </span>A Message
         </h3>
-        <p className="input">Your Name</p>
+        <input className="input" placeholder="Your Name" />
         <div className="line"></div>
-        <p className="input">Your Email</p>
+        <input className="input" placeholder="Your Email" />
         <div className="line"></div>
-        <p className="mess">Your Message</p>
+        {/* <p className="mess">Your Message</p> */}
+        <input className="input input_mess" placeholder="Your Message" />
         <div className="mess-type"></div>
         <a href="#">Send Message</a>
       </div>

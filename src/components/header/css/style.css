@@ -107,11 +107,13 @@
 }
 .header .bottom .message .input {
   color: #adadad;
-  margin-left: -220px;
+  margin-left: -140px;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
+  border: none;
+  outline: none;
 }
 .header .bottom .message .line {
   width: 294px;

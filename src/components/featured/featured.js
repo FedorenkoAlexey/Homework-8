@@ -9,26 +9,26 @@ class Featured extends React.Component {
 
   render() {
     return (
-      <div class="featured">
-        <div class="feat-head">
+      <div className="featured">
+        <div className="feat-head">
           <h1>
-            <span class="feat">Feautured </span>Works
+            <span className="feat">Feautured </span>Works
           </h1>
-          <p class="text3">
+          <p className="text3">
             Lorem ipsum dolor sit amet consectetur adipiscing elit Maiores fuga
             provident Libero.
           </p>
         </div>
-        <div class="feat-group">
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
-          <div class="block"></div>
+        <div className="feat-group">
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
+          <div className="block"></div>
         </div>
       </div>
     );

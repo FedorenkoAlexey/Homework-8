@@ -10,28 +10,28 @@ class Working extends React.Component {
   render() {
     return (
       <div className="working">
-        <div class="process">
+        <div className="process">
           <h1>
-            <span class="work">Working </span>Process
+            <span className="work">Working </span>Process
           </h1>
-          <p class="text2">
+          <p className="text2">
             Lorem ipsum dolor sit amet consectet ur adipiscing elit Vestibulum
             bibend um vestibulum.
           </p>
         </div>
-        <div class="group">
+        <div className="group">
           <div class="card1">
             {" "}
             <button>+ Know More</button>{" "}
           </div>
-          <div class="card2">
+          <div className="card2">
             <button>+ Know More</button>
           </div>
-          <div class="card3">
+          <div className="card3">
             {" "}
             <button>+ Know More</button>
           </div>
-          <div class="card4">
+          <div className="card4">
             <button>+ Know More</button>
           </div>
         </div>
